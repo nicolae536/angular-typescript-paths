@@ -5,7 +5,12 @@
     "outDir": "./out-tsc/spec",
     "types": [
       "jasmine"
-    ]
+    ],
+    "paths": {
+      "@components/*": [
+        "./src/app/test-import/*"
+      ]
+    }
   },
   "include": [
     "src/**/*.spec.ts",
