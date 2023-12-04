@@ -24,7 +24,7 @@
     ],
     "paths": {
       "@components/*": [
-        "./src/app/test-import/*"
+        "./src/test-import/*"
       ]
     }
   },
